@@ -4,3 +4,8 @@ spring:
     username: 'user'
     password: 'user'
     url: 'jdbc:postgresql://localhost:5420/user'
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+    show-sql: true
