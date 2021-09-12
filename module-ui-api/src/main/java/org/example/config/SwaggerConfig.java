@@ -1,7 +1,7 @@
-package org.example.config;
-
-import org.springframework.context.annotation.Configuration;
-
-@Configuration
-public class SwaggerConfig {
-}
+//package org.example.config;
+//
+//import org.springframework.context.annotation.Configuration;
+//
+//@Configuration
+//public class SwaggerConfig {
+//}
