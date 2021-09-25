@@ -14,3 +14,15 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.custom_container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.custom_container .title_page {
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: bolder;
+}

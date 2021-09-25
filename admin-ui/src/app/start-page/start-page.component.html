@@ -1,1 +1,32 @@
-<p>start-page works!</p>
+<h1 class="title_page">
+  home
+</h1>
+<hr>
+
+<div class="btn_wrap">
+  <button class="btn btn-success">Create</button>
+  <button class="btn btn-primary">Refresh</button>
+</div>
+
+<hr>
+
+<table class="table table-bordered">
+  <thead>
+  <tr>
+    <th>#</th>
+    <th>product name</th>
+    <th>product description</th>
+    <th>product price</th>
+    <th>product date</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let productItem of productList">
+    <th>{{productItem.id}}</th>
+    <td>{{productItem.name}}</td>
+    <td>{{productItem.description}}</td>
+    <td>{{productItem.price}}</td>
+    <td>{{productItem.dateCreate}}</td>
+  </tr>
+  </tbody>
+</table>

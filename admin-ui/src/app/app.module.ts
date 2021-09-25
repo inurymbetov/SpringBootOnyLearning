@@ -16,6 +16,7 @@ import { FooterComponent } from './root/footer/footer.component';
 import { StartPageComponent } from './start-page/start-page.component';
 import { SecondPageComponent } from './second-page/second-page.component';
 import { LoginPageComponent } from './login-page/login-page.component';
+import {StartPageServiceService} from "./start-page/start-page-service.service";
 
 @NgModule({
   declarations: [
@@ -38,7 +39,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
     BrowserAnimationsModule,
     NgbModule
   ],
-  providers: [],
+  providers: [StartPageServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
