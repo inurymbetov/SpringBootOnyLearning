@@ -1,0 +1,28 @@
+header {
+  width: 100%;
+  height: 100px;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .navigation_top {
+  display: flex;
+  justify-content: start;
+  width: 70%;
+}
+
+header .navigation_item {
+  transition: 0.2s;
+  margin-right: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fefefe;
+  padding: 5px 10px;
+}
+
+header .navigation_item:hover {
+  background: #fefefe;
+  color: #333333;
+}

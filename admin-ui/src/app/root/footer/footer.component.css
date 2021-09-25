@@ -1,0 +1,24 @@
+footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+}
+
+.footer{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .navigation_bot .navigation_item{
+  margin-left: 20px;
+  color: #fefefe;
+  text-transform: uppercase;
+}
+
+.footer p{
+  color: #fefefe;
+}
