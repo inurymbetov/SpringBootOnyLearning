@@ -7,14 +7,14 @@ import {AppComponent} from "./app.component";
 import {LoginPageComponent} from "./login-page/login-page.component";
 
 const routes: Routes = [
-  { path: '', component: LoginPageComponent },
   {
-    path: 'admin', component: RootComponent,
+    path: '', component: RootComponent,
     children: [
       { path: '', component: StartPageComponent },
-      { path: 'second', component: SecondPageComponent }
+      { path: 'about', component: SecondPageComponent }
     ]
-  }
+  },
+  { path: '**', component: LoginPageComponent }
 ];
 
 @NgModule({

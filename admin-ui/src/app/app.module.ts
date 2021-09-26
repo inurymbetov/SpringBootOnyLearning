@@ -39,7 +39,7 @@ import {StartPageServiceService} from "./start-page/start-page-service.service";
     BrowserAnimationsModule,
     NgbModule
   ],
-  providers: [StartPageServiceService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
